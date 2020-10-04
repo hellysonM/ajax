@@ -14,9 +14,9 @@ ajax.request({
 ```
 #### GET METHOD
 ```
-ajax.get('URL',function sucess(){},function beforeSend(){})
+ajax.get('URL',function sucess(data){},function beforeSend(){})
 ```
 #### POST METHOD
 ```
-ajax.post('URL',data,function sucess(){},function beforeSend(){})
+ajax.post('URL',data,function sucess(data){},function beforeSend(){})
 ```
